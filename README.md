@@ -4,7 +4,17 @@ Boilerplate criado usando Next JS e Typescript
 
 ## Principais ferramentas de desenvolvimento
 
-As ferramentas de desenvolvimento iniciais instaladas são os linters, git flow e styled components, e como design system, vou usar o Material UI. Para extensão da quantidade de ícones, caso necessário, será usado o Font Awesome.
+O projeto é criado usando o Create Next App, por isso usa React como "linguagem". Além disso, o projeto usa Typescript ao invés de Javascript puro.
+
+Além dessas duas ferramentas base, as demais ferramentas de desenvolvimento iniciais instaladas são os linters, git flow e styled components, e como design system, o projeto usa o Material UI (MUI). Para extensão da quantidade de ícones, caso necessário, será usado o Font Awesome, que já tem integração com o MUI.
+
+## Next JS
+
+WIP
+
+## Typescript
+
+WIP
 
 ### Linters
 

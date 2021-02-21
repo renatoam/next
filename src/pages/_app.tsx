@@ -1,20 +1,15 @@
-import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 import Page from '../components/Layout/DefaultLayoutPage';
 import { CustomersProvider } from "../context/customers";
-import { GlobalStyle } from '../styles/global';
+import GlobalStyle from '../styles/global';
+import themes from '../styles/themes'
+import { AppProps } from 'next/app'
 
-const theme = {
-  colors: {
-    primary: '#0070f3'
-  }
-}
-
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <GlobalStyle />
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={themes}>
         <CustomersProvider>
           <Page>
             <Component {...pageProps} />
@@ -25,7 +20,3 @@ export default function App({ Component, pageProps }) {
   )
 }
 
-App.propTypes = {
-  Component: PropTypes.elementType,
-  pageProps: PropTypes.object
-}
