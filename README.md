@@ -1,6 +1,6 @@
-# Juntos Somos Mais - Desafio Front-End
+# Boilerplate - NEXT JS
 
-Aplicação criada como teste para o processo seletivo da Juntos Somos Mais. A aplicação é desenvolvida com React, utilizando o NextJS como framework.
+Boilerplate criado usando Next JS e Typescript
 
 ## Principais ferramentas de desenvolvimento
 
